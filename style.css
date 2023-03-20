@@ -1,11 +1,12 @@
+@import url(https://fonts.googleapis.com/css?family=Cinzel:regular,500,600,700,800,900);
 * {
-  margin: 10;
-  padding: 10;
+  font-family: Cinzel, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 body {
   width: auto;
   font-size: 16px;
-  letter-spacing: 0.1em;
 }
 .logo {
   display: block;
@@ -13,15 +14,17 @@ body {
   text-align: center;
 }
 header {
-  background-color: #e6dac7;
+  background-color: #fff;
   font-size: 0;
 }
 nav {
   background-color: #87746d;
+  font-size: 16px;
+  height: 25px;
 }
 ul {
   width: 570px;
-  padding: 20px;
+  padding: 0px;
   margin: 0px auto 0px auto;
   text-align: center;
   word-spacing: 1em;
@@ -34,4 +37,22 @@ a {
 }
 a:hover {
   color: #9ab7a0;
+}
+div {
+  padding: 0;
+}
+p {
+  background-color: #0a2c47;
+  padding: 0;
+  color: #fff;
+}
+
+.sheds {
+  background-color: #0a2c47;
+  display: block;
+}
+footer {
+  background-color: #194260;
+  color: #fff;
+  text-align: center;
 }
