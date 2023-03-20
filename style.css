@@ -1,0 +1,37 @@
+* {
+  margin: 10;
+  padding: 10;
+}
+body {
+  width: auto;
+  font-size: 16px;
+  letter-spacing: 0.1em;
+}
+.logo {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+header {
+  background-color: #e6dac7;
+  font-size: 0;
+}
+nav {
+  background-color: #87746d;
+}
+ul {
+  width: 570px;
+  padding: 20px;
+  margin: 0px auto 0px auto;
+  text-align: center;
+  word-spacing: 1em;
+}
+li {
+  display: inline;
+}
+a {
+  color: #fff;
+}
+a:hover {
+  color: #9ab7a0;
+}
