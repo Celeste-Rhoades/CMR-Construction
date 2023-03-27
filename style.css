@@ -8,41 +8,50 @@ body {
   width: auto;
   font-size: 16px;
 }
-.logo {
-  text-align: center;
+.logo img {
+  height: 300px;
+  padding-right: 300px;
 }
-header {
+.navigation-bar {
+  position: relative;
+  display: flex;
+  justify-content: right;
+  flex-direction: row;
+  height: 200px;
   background-color: #fff;
-  font-size: 0;
+  width: 100%;
+  padding: 10px;
 }
-nav {
-  background-color: #87746d;
-  font-size: 16px;
+
+.navigation-bar a {
+  color: #0a2c47;
+  vertical-align: top;
+  margin-right: 30px;
+  height: 40px;
+  line-height: 150px;
 }
 ul {
-  width: 570px;
-  padding: 0px;
-  margin: 0px auto 0px auto;
-  text-align: center;
-  word-spacing: 1em;
-}
-li {
-  display: inline;
-}
-a {
-  color: #fff;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
 }
 a:hover {
-  color: #9ab7a0;
+  color: #81a875;
 }
+li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 div {
   padding: 0;
 }
-
-p {
+h3 {
   font-size: 22px;
-  padding: 40px;
+  padding-left: 40px;
   color: #fff;
+  padding-top: 10px;
 }
 .fences {
   background-color: #194260;
@@ -65,6 +74,7 @@ p {
   background-color: #194260;
 }
 .fences img {
+  margin-top: auto;
   float: left;
   width: 400px;
   height: 400px;
@@ -82,29 +92,36 @@ p {
   float: left;
   width: 400px;
   height: 400px;
-  padding: 40px;
+  padding-right: 160px;
+  padding-left: 160px;
+  padding-bottom: 40px;
+  padding-top: 40px;
   background-color: #194260;
 }
 
 .row::after {
-  display: block;
-  text-align: left;
+  content: "";
+  clear: both;
+  display: table;
   background-color: #194260;
 }
 
 .row1::after {
-  display: block;
-  text-align: left;
+  content: "";
+  clear: both;
+  display: table;
   background-color: #194260;
 }
 .row2::after {
-  display: block;
-  text-align: left;
+  content: "";
+  clear: both;
+  display: table;
   background-color: #194260;
 }
 .row3::after {
-  display: block;
-  text-align: left;
+  content: "";
+  clear: both;
+  display: table;
   background-color: #194260;
 }
 
@@ -112,5 +129,6 @@ footer {
   background-color: #0a2c47;
   text-align: center;
   color: #fff;
-  height: 200px;
+  height: 100px;
+  padding: 35px;
 }
