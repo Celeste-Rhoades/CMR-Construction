@@ -1,0 +1,135 @@
+@import url(https://fonts.googleapis.com/css?family=Cinzel:regular,500,600,700,800,900);
+* {
+  font-family: Cinzel, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: auto;
+  font-size: 16px;
+}
+.logo img {
+  height: 300px;
+  padding-right: 300px;
+}
+.navigation-bar {
+  position: relative;
+  display: flex;
+  justify-content: right;
+  flex-direction: row;
+  height: 200px;
+  background-color: #fff;
+  width: 100%;
+  padding: 10px;
+}
+
+.navigation-bar a {
+  color: #0a2c47;
+  vertical-align: top;
+  margin-right: 30px;
+  height: 40px;
+  line-height: 150px;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+a:hover {
+  color: #81a875;
+}
+li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+div {
+  padding: 0;
+}
+h3 {
+  font-size: 22px;
+  padding-left: 40px;
+  color: #fff;
+  padding-top: 10px;
+}
+.fences {
+  background-color: #194260;
+  color: #fff;
+}
+.sheds {
+  background-color: #194260;
+}
+.decks {
+  background-color: #194260;
+}
+.retainingwall {
+  background-color: #194260;
+}
+
+.sheds img {
+  float: left;
+  width: 400px;
+  height: 400px;
+  padding: 40px;
+  background-color: #194260;
+}
+.fences img {
+  margin-top: auto;
+  float: left;
+  width: 400px;
+  height: 400px;
+  padding: 40px;
+  background-color: #194260;
+}
+.decks img {
+  float: left;
+  width: 400px;
+  height: 400px;
+  padding: 40px;
+  background-color: #194260;
+}
+.retainingwall img {
+  float: left;
+  width: 400px;
+  height: 400px;
+  padding-right: 160px;
+  padding-left: 160px;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  background-color: #194260;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+  background-color: #194260;
+}
+
+.row1::after {
+  content: "";
+  clear: both;
+  display: table;
+  background-color: #194260;
+}
+.row2::after {
+  content: "";
+  clear: both;
+  display: table;
+  background-color: #194260;
+}
+.row3::after {
+  content: "";
+  clear: both;
+  display: table;
+  background-color: #194260;
+}
+
+footer {
+  background-color: #0a2c47;
+  text-align: center;
+  color: #fff;
+  height: 100px;
+  padding: 35px;
+}

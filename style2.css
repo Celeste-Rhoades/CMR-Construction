@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Quattrocento&display=swap");
+* {
+  font-family: "Quattrocento", serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: auto;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+.logo img {
+  height: 360px;
+  padding-right: 110px;
+}
+.navigation-bar {
+  position: relative;
+  display: flex;
+  justify-content: right;
+  flex-direction: row;
+  height: 200px;
+  background-color: #fff;
+  width: 100%;
+  padding-bottom: 80px;
+}
+
+.navigation-bar a {
+  color: #0a2c47;
+  font-size: 18px;
+  vertical-align: top;
+  margin-right: 20;
+  padding-right: 60px;
+  height: 40px;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+a:hover {
+  color: #81a875;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.background {
+  background-image: url(./Images/paleBlueFence.jpeg);
+}
+.background1 {
+  background-image: url(./Images/paleBlueFence.jpeg);
+}
+h2 {
+  font-size: 20px;
+  padding: 5px;
+}
+h3 {
+  font-size: 32px;
+  padding: 5px;
+}
+h4 {
+  font-size: 22px;
+  padding: 5px;
+  color: #fff;
+}
+
+.about {
+  background-color: #4c9eaa;
+  color: aliceblue;
+  text-align: center;
+  padding: 10px;
+}
+hr.solid {
+  border-bottom: 4px solid #6e6b70;
+}
+.figure {
+  background-color: #222e50;
+}
+section {
+  background-image: url(./Images/horizontalWood.jpg);
+}
+.image {
+  margin-top: auto;
+  float: left;
+  background-color: #194260;
+  padding-top: 60px;
+  padding: 16px;
+  margin: 12px;
+  display: inline;
+}
+.text {
+  position: absolute;
+  text-align: center;
+  color: black;
+  font-size: 24px;
+  left: 122px;
+  top: 550px;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.text1 {
+  position: absolute;
+  text-align: center;
+  color: black;
+  font-size: 24px;
+  left: 485px;
+  top: 550px;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+.text2 {
+  position: absolute;
+  text-align: center;
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+  left: 845px;
+  top: 550px;
+  z-index: 1000;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+.text3 {
+  position: absolute;
+  text-align: center;
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+  left: 1130px;
+  top: 550px;
+  z-index: 1000 !important;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+.spacing {
+  background-color: #bb6a3d;
+}
+
+.sheds img {
+  float: left;
+  padding-left: 40px;
+  width: 400px;
+  height: 400px;
+  padding: 20px;
+  margin: 15px;
+  background-color: #4c9eaa;
+}
+.fences img {
+  float: left;
+  padding-left: 40px;
+  width: 400px;
+  height: 400px;
+  padding: 20px;
+  margin: 15px;
+  background-color: #4c9eaa;
+}
+.decks img {
+  float: left;
+  padding-left: 40px;
+  width: 400px;
+  height: 400px;
+  padding: 15px;
+  margin: 20px;
+  background-color: #4c9eaa;
+}
+.retainingwall img {
+  float: left;
+  width: 400px;
+  height: 400px;
+  padding-right: 150px;
+  padding-left: 150px;
+  padding-bottom: 40px;
+  padding: 25px;
+  margin-right: 140px;
+  margin-left: 130px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #4c9eaa;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+  background-color: #0a2c47;
+}
+
+.row1::after {
+  content: "";
+  clear: both;
+  display: table;
+  background-color: #194260;
+}
+.row2::after {
+  content: "";
+  clear: both;
+  display: table;
+  background-color: #194260;
+}
+.row3::after {
+  content: "";
+  clear: both;
+  display: table;
+  background-color: #194260;
+}
+.row4::after {
+  content: "";
+  clear: both;
+  display: table;
+  background-color: #194260;
+}
+
+footer {
+  background-color: #0a2c47;
+  text-align: center;
+  font-size: 25px;
+  color: #fff;
+  height: 100px;
+  padding: 40px;
+}
