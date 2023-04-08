@@ -41,7 +41,7 @@ ul {
   list-style-type: none;
 }
 a:hover {
-  color: #81a875;
+  color: #4c9eaa;
 }
 a {
   text-decoration: none;
@@ -177,8 +177,8 @@ section {
   padding-left: 150px;
   padding-bottom: 40px;
   padding: 25px;
-  margin-right: 140px;
-  margin-left: 130px;
+  margin-right: 135px;
+  margin-left: 125px;
   margin-top: 20px;
   margin-bottom: 20px;
   background-color: #4c9eaa;
