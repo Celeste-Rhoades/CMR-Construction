@@ -12,8 +12,8 @@ body {
   padding: 0;
 }
 
-.logo img {
-  height: 360px;
+.logo-img {
+  height: 200px;
   padding-right: 110px;
 }
 .navigation-bar {
@@ -21,10 +21,9 @@ body {
   display: flex;
   justify-content: right;
   flex-direction: row;
-  height: 200px;
+
   background-color: #fff;
   width: 100%;
-  padding-bottom: 80px;
 }
 
 .navigation-bar a {
@@ -33,32 +32,16 @@ body {
   vertical-align: top;
   margin-right: 20;
   padding-right: 60px;
-  height: 40px;
 }
 ul {
   display: flex;
   flex-direction: row;
   list-style-type: none;
 }
-a:hover {
+.navigation-bar a:hover {
   color: #4c9eaa;
 }
-a {
-  text-decoration: none;
-  color: black;
-}
-li {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
 
-.background {
-  background-image: url(./Images/paleBlueFence.jpeg);
-}
-.background1 {
-  background-image: url(./Images/paleBlueFence.jpeg);
-}
 h2 {
   font-size: 20px;
   padding: 5px;
@@ -70,7 +53,7 @@ h3 {
 h4 {
   font-size: 22px;
   padding: 5px;
-  color: #fff;
+  color: #000;
 }
 
 .about {
@@ -85,10 +68,11 @@ hr.solid {
 .figure {
   background-color: #222e50;
 }
-section {
-  background-image: url(./Images/horizontalWood.jpg);
+a {
+  text-decoration: none;
+  color: #fff;
 }
-.image {
+.photo {
   margin-top: auto;
   float: left;
   background-color: #367588;
@@ -97,14 +81,18 @@ section {
   margin: 12px;
   display: inline;
 }
+
+.photo:hover {
+  opacity: 0.1;
+  background-color: #5e6870;
+}
 .text {
   position: absolute;
   text-align: center;
-  color: black;
+  color: #fff;
   font-size: 24px;
   left: 122px;
-  top: 550px;
-  background-color: rgba(255, 255, 255, 0.7);
+  top: 500px;
 }
 
 .text1 {
@@ -113,8 +101,7 @@ section {
   color: black;
   font-size: 24px;
   left: 485px;
-  top: 550px;
-  background-color: rgba(255, 255, 255, 0.7);
+  top: 500px;
 }
 .text2 {
   position: absolute;
@@ -123,23 +110,30 @@ section {
   font-size: 24px;
   font-weight: bold;
   left: 845px;
-  top: 550px;
+  top: 500px;
   z-index: 1000;
-  background-color: rgba(255, 255, 255, 0.7);
 }
 .text3 {
   position: absolute;
   text-align: center;
-  color: black;
+  color: #fff;
   font-size: 24px;
   font-weight: bold;
   left: 1130px;
-  top: 550px;
+  top: 500px;
   z-index: 1000 !important;
-  background-color: rgba(255, 255, 255, 0.7);
 }
 .spacing {
-  background-color: #bb6a3d;
+  background-color: #fff;
+}
+.section {
+  background-color: #5e6870;
+}
+.background {
+  background-color: #5e6870;
+}
+.row4 {
+  background-color: #5e6870;
 }
 
 .sheds img {
