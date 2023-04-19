@@ -146,12 +146,9 @@ a {
   background-color: #4c9eaa;
 }
 .fences img {
-  float: left;
-  padding-left: 40px;
-  width: 350px;
-  height: 350px;
   padding: 20px;
   margin: 40px;
+  margin-left: 400px;
   background-color: #4c9eaa;
 }
 .decks img {
