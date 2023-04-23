@@ -55,6 +55,10 @@ h4 {
   padding: 5px;
   color: #000;
 }
+h5 {
+  font-size: 22px;
+  color: #fff;
+}
 
 .about {
   background-color: #4c9eaa;

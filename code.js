@@ -5,13 +5,13 @@ var time = 2000;	// Time Between Switch
 	 
 // Image List
 images[0] = "images/kentsfence.jpeg";
-images[1] = "images/fence4.jpeg";
+images[1] = "images/fence4.jpg";
 images[2] = "Images/brittfence.jpeg";
 images[3] = "images/brittfence2.jpeg";
 images[4] = "images/fence3.jpeg";
 images[5] = "images/fence5.jpeg";
-images[6] = "images/ourfence.jpeg";
-images[7] = "images/ourfence2.jpeg";
+images[6] = "images/ourfence5.jpg";
+
 
 
 // Change Image
@@ -33,3 +33,4 @@ function changeImg(){
 
 // Run function when page loads
 window.onload=changeImg;
+
