@@ -3,33 +3,34 @@
   font-family: "Quattrocento", serif;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
-
+li,
+a {
+  text-decoration: none;
+}
 body {
   width: auto;
   font-size: 16px;
   margin: 0;
   padding: 0;
 }
-
-.logo-img {
-  height: 200px;
-  padding-right: 110px;
-}
-.navigation-bar {
-  position: relative;
+header {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  height: 200px;
+}
+.nav {
   justify-content: right;
   flex-direction: row;
-
-  background-color: #fff;
-  width: 100%;
 }
 
-.navigation-bar a {
+.nav a {
   color: #0a2c47;
   font-size: 18px;
-  vertical-align: top;
   margin-right: 20;
   padding-right: 60px;
 }
@@ -38,8 +39,8 @@ ul {
   flex-direction: row;
   list-style-type: none;
 }
-.navigation-bar a:hover {
-  color: #4c9eaa;
+.nav a:hover {
+  color: #367588;
 }
 
 h2 {
