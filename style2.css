@@ -50,6 +50,7 @@ h2 {
 h3 {
   font-size: 32px;
   padding: 5px;
+  z-index: 1000;
 }
 h4 {
   font-size: 22px;
@@ -78,55 +79,25 @@ a {
   color: #fff;
 }
 .photo {
-  margin-top: auto;
-  float: left;
-  background-color: #367588;
-  padding-top: 60px;
-  padding: 16px;
-  margin: 12px;
+  position: relative;
+  text-align: center;
+  color: #fff;
+  padding: 10px;
   display: inline;
+  margin-top: 10px;
+  margin-bottom: 40px;
 }
 
 .photo:hover {
   opacity: 0.1;
   background-color: #5e6870;
 }
-.text {
+.centered {
   position: absolute;
-  text-align: center;
-  color: #fff;
-  font-size: 24px;
-  left: 122px;
-  top: 500px;
-}
-
-.text1 {
-  position: absolute;
-  text-align: center;
-  color: black;
-  font-size: 24px;
-  left: 485px;
-  top: 500px;
-}
-.text2 {
-  position: absolute;
-  text-align: center;
-  color: black;
-  font-size: 24px;
-  font-weight: bold;
-  left: 845px;
-  top: 500px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -90%);
   z-index: 1000;
-}
-.text3 {
-  position: absolute;
-  text-align: center;
-  color: #fff;
-  font-size: 24px;
-  font-weight: bold;
-  left: 1130px;
-  top: 500px;
-  z-index: 1000 !important;
 }
 .spacing {
   background-color: #fff;
@@ -144,10 +115,10 @@ a {
 .sheds img {
   float: left;
   padding-left: 40px;
-  width: 350px;
-  height: 350px;
-  padding: 20px;
-  margin: 40px;
+  width: 400px;
+  height: 400px;
+  padding: 10px;
+  margin: 35px;
   background-color: #4c9eaa;
 }
 .fences img {
@@ -159,22 +130,19 @@ a {
 .decks img {
   float: left;
   padding-left: 40px;
-  width: 350px;
-  height: 350px;
-  padding: 20px;
-  margin: 40px;
+  width: 400px;
+  height: 400px;
+  padding: 10px;
+  margin: 35px;
   background-color: #4c9eaa;
 }
 .retainingwall img {
   float: left;
-  width: 350px;
-  height: 350px;
-  padding-right: 150px;
-  padding-left: 150px;
-  padding-bottom: 40px;
-  padding: 20px;
-  margin-right: 135px;
-  margin-left: 168px;
+  width: 420px;
+  height: 420px;
+  padding: 10px;
+  margin-right: 120px;
+  margin-left: 160px;
   margin-top: 20px;
   margin-bottom: 20px;
   background-color: #4c9eaa;
