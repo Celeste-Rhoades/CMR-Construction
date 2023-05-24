@@ -77,11 +77,13 @@ hr.solid {
 a {
   text-decoration: none;
   color: #fff;
+
+  z-index: 1000;
+  font-weight: 400;
 }
 .photo {
   position: relative;
   text-align: center;
-  color: #fff;
   padding: 10px;
   display: inline;
   margin-top: 10px;
@@ -94,7 +96,7 @@ a {
 }
 .centered {
   position: absolute;
-  top: 50%;
+  top: -10%;
   left: 50%;
   transform: translate(-50%, -90%);
   z-index: 1000;
@@ -116,7 +118,7 @@ a {
   float: left;
   padding-left: 40px;
   width: 400px;
-  height: 400px;
+  height: 360px;
   padding: 10px;
   margin: 35px;
   background-color: #4c9eaa;
