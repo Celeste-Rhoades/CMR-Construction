@@ -42,15 +42,20 @@ ul {
 .nav a:hover {
   color: #367588;
 }
+h1 {
+  color: #000;
+}
 
 h2 {
   font-size: 20px;
   padding: 5px;
+  color: #000;
 }
 h3 {
   font-size: 32px;
   padding: 5px;
   z-index: 1000;
+  color: #000;
 }
 h4 {
   font-size: 22px;
@@ -59,12 +64,11 @@ h4 {
 }
 h5 {
   font-size: 22px;
-  color: #fff;
+  color: #000;
 }
 
 .about {
   background-color: #4c9eaa;
-  color: aliceblue;
   text-align: center;
   padding: 10px;
 }
@@ -77,30 +81,67 @@ hr.solid {
 a {
   text-decoration: none;
   color: #fff;
-
   z-index: 1000;
   font-weight: 400;
 }
-.photo {
+.image {
   position: relative;
+  width: 330px;
+  height: 280px;
   text-align: center;
   padding: 10px;
   display: inline;
   margin-top: 10px;
   margin-bottom: 40px;
 }
+.image__image {
+  display: inline-block;
+  height: 280px;
+  width: 330px;
+}
 
-.photo:hover {
-  opacity: 0.1;
-  background-color: #5e6870;
-}
-.centered {
+.image__overlay {
   position: absolute;
-  top: -10%;
-  left: 50%;
-  transform: translate(-50%, -90%);
-  z-index: 1000;
+  right: 0;
+  bottom: 0;
+  width: 380px;
+  height: 300px;
+  background: rgba(0, 0, 0, 0.3);
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.25s;
 }
+
+.image__overlay--blur {
+  backdrop-filter: blur(3px);
+}
+
+.image__overlay--primary {
+  background: #5e6870;
+}
+
+.image__overlay > * {
+  transform: translateY(20px);
+  transition: transform 0.25s;
+}
+
+.image__overlay:hover {
+  opacity: 1;
+}
+
+.image__overlay:hover > * {
+  transform: translateY(0);
+}
+
+.image__title {
+  font-weight: bold;
+  color: #fff;
+}
+
 .spacing {
   background-color: #fff;
 }
@@ -120,12 +161,12 @@ a {
   padding-left: 40px;
   width: 400px;
   height: 360px;
-  padding: 10px;
+  padding: 5px;
   margin: 35px;
   background-color: #4c9eaa;
 }
 .fences img {
-  padding: 20px;
+  padding: 5px;
   margin: 40px;
   margin-left: 400px;
   background-color: #4c9eaa;
@@ -135,7 +176,7 @@ a {
   padding-left: 40px;
   width: 400px;
   height: 400px;
-  padding: 10px;
+  padding: 5px;
   margin: 35px;
   background-color: #4c9eaa;
 }
@@ -143,7 +184,7 @@ a {
   float: left;
   width: 420px;
   height: 420px;
-  padding: 10px;
+  padding: 5px;
   margin-right: 120px;
   margin-left: 160px;
   margin-top: 20px;
