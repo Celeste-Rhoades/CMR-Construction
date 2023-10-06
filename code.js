@@ -11,7 +11,8 @@ images[3] = "images/brittfence2.jpeg";
 images[4] = "images/fence3.jpeg";
 images[5] = "images/fence5.jpeg";
 images[6] = "images/ourfence5.jpg";
-
+images[7] = "images/Metalfence1.jpeg"
+images[8] = "images/MetalFence2.jpeg"
 
 
 // Change Image
